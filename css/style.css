@@ -134,3 +134,31 @@ img {
     }
 }
 
+@media (max-width: 375px) {
+    .row {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+	.lessons .col {
+        width: 100%;
+        margin: 3rem 0;
+    }
+    .steps {
+        margin: 0;
+    }
+    .steps .col {
+        width: 100%;
+    }
+    .why-us {
+        margin-bottom: 0;
+        padding: 3rem 0;
+        background-color: #222222;
+    }
+    .why-us .col-left {
+        width: 100%;
+    }
+    
+    .why-us .col-right {
+        width: 100%;
+    }
+}
